@@ -24,6 +24,9 @@ function Board() {
     setSquares(nextSquares);
     setXIsNext(!xIsNext);
   }
+
+  <div className="status">Próximo jogador: {xIsNext ? "X" : "O"}</div>;
+
   return (
     <>
       <div className="board-row">
